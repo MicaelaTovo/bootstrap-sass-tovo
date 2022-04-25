@@ -15,10 +15,79 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
 }
+nav{
+    padding: 1rem;
+    background-color: #79cf79;
+}
+
+nav ul{
+    text-decoration: none;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    background-color: #313130;
+    color: whitesmoke;
+    border-radius: 30%;
+}
+.foto-logo{
+    position: absolute;
+}
 .carousel-inner{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+
+.packs{
+    display:flex;
+    position: relative;    justify-content:space-evenly;
+    align-items: center;
+    font-size: 30px;
+    text-align: center; 
+}
+
+.pack1, .pack2, .pack3, .pack4{
+    background-color: #79cf79;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: bounce;
+    animation-duration: 2s; 
+
+}
+
+@media screen and (max-width:1024px) {
+.packs{
+    display:block;
+    margin-left: 30%;
+}
+}
+
+.pack1:hover, .pack2:hover, .pack3:hover, .pack4:hover {
+    background-color: #b1f8b1;
+    border-radius: 5%;
+    color: #313130;
+}
+
 
 
 

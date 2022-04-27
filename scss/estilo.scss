@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "media.scss";
+@import "header.scss";
+@import "footer.scss";
+
+
+h1{
+    color: $color-letras;
+}
+
+body{
+    background-color:$color-fondo;
+    color: $color-letras;
+    font-family: $tipografia;
+    .foto-logo{
+        position: absolute;
+    }
+    .carousel-inner{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .packs{
+        display:flex;
+        position: relative;    justify-content:space-evenly;
+        align-items: center;
+        font-size: 30px;
+        text-align: center; 
+    }
+    .pack1, .pack2, .pack3, .pack4{
+        background-color: $color-secciones;
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        animation: bounce;
+        animation-duration: 2s; 
+        &:hover{
+                background-color: $color-letras;
+                border-radius: 5%;
+                color:$color-fondo;
+        }
+    }
+}
+
+
+
+.texto_nosotros{
+    margin-top: 40px;
+}
+
+
+.accordion-button .accordion-collapse .accordion-body .accordion-header{
+    background-color: $color-fondo;
+    color: $color-letras;
+    font-family: $tipografia;
+}

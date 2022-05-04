@@ -5,9 +5,11 @@ footer{
     .redes{
         display: flex;
         justify-content: center;
+          &:hover{
+              opacity: 90%;
+          }
     }
     .imagenLogo{
-        display: flex;
-        justify-content: center;
+        @extend .redes;
     }
 }

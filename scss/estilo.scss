@@ -3,6 +3,20 @@
 @import "header.scss";
 @import "footer.scss";
 
+@mixin pack {
+    background-color: $color-secciones;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: bounce;
+    animation-duration: 2s; 
+    &:hover{
+            background-color: $color-letras;
+            border-radius: 5%;
+            color:$color-fondo;
+    }
+}
 
 h1{
     color: $color-letras;
@@ -21,26 +35,17 @@ body{
     }
     .packs{
         display:flex;
-        position: relative;    justify-content:space-evenly;
+        position: relative;    
+        justify-content:space-evenly;
         align-items: center;
         font-size: 30px;
         text-align: center; 
     }
     .pack1, .pack2, .pack3, .pack4{
-        background-color: $color-secciones;
-        width: 200px;
-        height: 200px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        animation: bounce;
-        animation-duration: 2s; 
-        &:hover{
-                background-color: $color-letras;
-                border-radius: 5%;
-                color:$color-fondo;
+       @include pack;
         }
     }
-}
+
 
 
 
@@ -50,7 +55,5 @@ body{
 
 
 .accordion-button .accordion-collapse .accordion-body .accordion-header{
-    background-color: $color-fondo;
-    color: $color-letras;
-    font-family: $tipografia;
+   @extend body;
 }

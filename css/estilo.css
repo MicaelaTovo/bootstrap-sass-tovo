@@ -36,41 +36,73 @@ footer {
   height: 100%; }
   footer .redes, footer .imagenLogo {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    text-decoration: none; }
     footer .redes:hover, footer .imagenLogo:hover {
       opacity: 90%; }
 
 h1 {
   color: #f5f5f5; }
 
-body, .accordion-button .accordion-collapse .accordion-body .accordion-header {
+body, .accordion-button .accordion-collapse .accordion-header {
   background-color: #313130;
   color: #f5f5f5;
   font-family: Arial, Helvetica, sans-serif; }
-  body .foto-logo, .accordion-button .accordion-collapse .accordion-body .accordion-header .foto-logo {
+  body .foto-logo, .accordion-button .accordion-collapse .accordion-header .foto-logo {
     position: absolute; }
-  body .carousel-inner, .accordion-button .accordion-collapse .accordion-body .accordion-header .carousel-inner {
+  body .carousel-inner, .accordion-button .accordion-collapse .accordion-header .carousel-inner {
     margin-top: 40px;
     margin-bottom: 40px; }
-  body .packs, .accordion-button .accordion-collapse .accordion-body .accordion-header .packs {
+  body .packs, .accordion-button .accordion-collapse .accordion-header .packs, body .veggies, .accordion-button .accordion-collapse .accordion-header .veggies, body .proteicos, .accordion-button .accordion-collapse .accordion-header .proteicos, body .ketos, .accordion-button .accordion-collapse .accordion-header .ketos, body .gourmet, .accordion-button .accordion-collapse .accordion-header .gourmet {
     display: flex;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
     font-size: 30px;
-    text-align: center; }
-  body .pack1, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack1, body .pack2, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack2, body .pack3, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack3, body .pack4, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack4 {
+    text-align: center;
+    text-decoration: none;
+    color: #f5f5f5; }
+  body .pack1, .accordion-button .accordion-collapse .accordion-header .pack1, body .pack2, .accordion-button .accordion-collapse .accordion-header .pack2, body .pack3, .accordion-button .accordion-collapse .accordion-header .pack3, body .pack4, .accordion-button .accordion-collapse .accordion-header .pack4 {
     background-color: #79cf79;
     width: 200px;
     height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
     animation: bounce;
-    animation-duration: 2s; }
-    body .pack1:hover, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack1:hover, body .pack2:hover, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack2:hover, body .pack3:hover, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack3:hover, body .pack4:hover, .accordion-button .accordion-collapse .accordion-body .accordion-header .pack4:hover {
+    animation-duration: 2s;
+    text-decoration: none;
+    text-decoration: none;
+    color: #f5f5f5; }
+    body .pack1:hover, .accordion-button .accordion-collapse .accordion-header .pack1:hover, body .pack2:hover, .accordion-button .accordion-collapse .accordion-header .pack2:hover, body .pack3:hover, .accordion-button .accordion-collapse .accordion-header .pack3:hover, body .pack4:hover, .accordion-button .accordion-collapse .accordion-header .pack4:hover {
       background-color: #f5f5f5;
       border-radius: 5%;
       color: #313130; }
 
+.foto_veggie, .foto_proteicas, .foto_keto, .foto_gourmet {
+  background-color: #79cf79;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: bounce;
+  animation-duration: 2s;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center; }
+  .foto_veggie:hover, .foto_proteicas:hover, .foto_keto:hover, .foto_gourmet:hover {
+    background-color: #f5f5f5;
+    border-radius: 5%;
+    color: #313130; }
+
 .texto_nosotros {
   margin-top: 40px; }
+
+.accordion-body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #313130; }
+
+.formulario {
+  margin-left: 30px; }
+
+.titulo_packs, .titulo_viandas {
+  margin-top: 30px; }

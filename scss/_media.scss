@@ -1,6 +1,9 @@
-@media screen and (max-width:1024px) {
+@import "variables.scss";
+
+@media screen and (max-width:768px) {
     .packs{
-        display:block;
+        display: block;
         margin-left: 30%;
     }
+    
     }

@@ -1,7 +1,9 @@
+@import "variables.scss";
+
 header{
     .navbar{
         background-color: $color-secciones;
-        color:$color-letras;
+        color: $color-letras;
         font-family: $tipografia;
         font-size: 1.7rem;
         padding: 1rem;

@@ -1,9 +1,5 @@
-@import "variables.scss";
-
-@media screen and (max-width:768px) {
-    .packs{
-        display: block;
-        margin-left: 30%;
+@media only screen and (max-width:768px) {
+    .packs, .veggies, .proteicos, .ketos, .gourmet{
+        display:block;
     }
-    
-    }
+   }

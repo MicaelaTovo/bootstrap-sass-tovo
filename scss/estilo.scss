@@ -3,7 +3,7 @@
 @import "header.scss";
 @import "footer.scss";
 
-@mixin pack {
+@mixin pack{
     background-color: $color-secciones;
     width: 200px;
     height: 200px;
@@ -35,8 +35,7 @@ body{
         margin-bottom: 40px;
     }
     .packs, .veggies, .proteicos, .ketos, .gourmet{
-        display:flex;
-        position: relative;    
+        display:flex;    
         justify-content:space-evenly;
         align-items: center;
         font-size: 30px;
@@ -76,4 +75,3 @@ body{
 .titulo_packs, .titulo_viandas{
     margin-top: 30px;
 }
-

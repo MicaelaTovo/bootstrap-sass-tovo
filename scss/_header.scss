@@ -9,21 +9,14 @@ header{
         padding: 1rem;
         ul{
             text-decoration: none;
-            height: 80px;
-            display: flex;
-            justify-content:center;
-            align-items: center;
-            li{
+                li{
                 list-style-type: none;
                 padding: 20px;
                 color: $color-letras;
                 letter-spacing: 5px;
                 font-size: 1.5rem;
-                text-decoration: none;
                 a{
-                    text-decoration: none;
-                    color:$color-letras;
-                     
+                   color:$color-letras;
                      &:hover{
                         background-color: $color-fondo;
                         color: $color-letras;

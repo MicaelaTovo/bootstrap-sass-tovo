@@ -1,8 +1,8 @@
 @media only screen and (max-width:768px) {
     .packs, .veggies, .proteicos, .ketos, .gourmet{
-        display:block;
+        flex-wrap: wrap;
     }
     .foto_veggie, .foto_proteicas, .foto_keto, .foto_gourmet{
-        display: block;
+        flex-wrap: wrap;
     }
    }

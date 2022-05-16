@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
   .packs, .veggies, .proteicos, .ketos, .gourmet {
-    display: block; }
+    flex-wrap: wrap; }
   .foto_veggie, .foto_proteicas, .foto_keto, .foto_gourmet {
-    display: block; } }
+    flex-wrap: wrap; } }
 
 header .navbar {
   background-color: #79cf79;
@@ -48,7 +48,7 @@ body, .accordion-button .accordion-collapse .accordion-header {
   body .carousel-inner, .accordion-button .accordion-collapse .accordion-header .carousel-inner {
     margin-top: 40px;
     margin-bottom: 40px; }
-  body .packs, .accordion-button .accordion-collapse .accordion-header .packs, body .veggies, .accordion-button .accordion-collapse .accordion-header .veggies, body .proteicos, .accordion-button .accordion-collapse .accordion-header .proteicos, body .ketos, .accordion-button .accordion-collapse .accordion-header .ketos, body .gourmet, .accordion-button .accordion-collapse .accordion-header .gourmet {
+  body .packs, .accordion-button .accordion-collapse .accordion-header .packs, body .veggies, .accordion-button .accordion-collapse .accordion-header .veggies, body .proteicos, .accordion-button .accordion-collapse .accordion-header .proteicos, body .ketos, .accordion-button .accordion-collapse .accordion-header .ketos, body .gourmet, .accordion-button .accordion-collapse .accordion-header .gourmet, body .vianda-packs, .accordion-button .accordion-collapse .accordion-header .vianda-packs {
     display: flex;
     justify-content: space-evenly;
     align-items: center;

@@ -1,7 +1,7 @@
-@import "variables.scss";
-@import "media.scss";
-@import "header.scss";
-@import "footer.scss";
+@import "_variables.scss";
+@import "_media.scss";
+@import "_header.scss";
+@import "_footer.scss";
 
 @mixin pack{
     background-color: $color-secciones;
@@ -74,4 +74,7 @@ body{
 
 .titulo_packs, .titulo_viandas{
     margin-top: 30px;
+}
+.separador{
+    height: 7rem;
 }
